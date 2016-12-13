@@ -277,6 +277,29 @@ Renaming Remotes ::
 Removing Remotes ::
 
  $git remote rm paul
+ 
+ 
+ 
+Branch avec github
+==================
+
+Sur Gihub j'ai créé un repository pour me faire des exemples de codes je souhaite garder l'évolution de mon code dans des branch distinctes car cela représente des notions différentes.
+Sur github j'ai une branche "master" et je créer une autre branche "ClassResourceInterface".
+Puis sur ma machine distantes je fais soit ::
+
+ git remote add origin https://github.com/Mouchy/Album-zf3.git
+
+si je l'ai pas déjà fait. Et si je l'ai déjà fait je fais un ::
+
+ git fetch origin ClassResourceInterface
+ 
+Qui normalement, il me semble me rajoute cette nouvelle branche en local.
+Ensuite si je veux faire un push dans cette nouvelle brach je fais ::
+
+ git push -u origin master:ClassResourceInterface
+
+Je ne sais pas si c'est la meilleur méthode mais c'est celle que j'ai trouvé pour l'instant.
+A noter que si la branche n'existe pas sur le serveur en remote la commande va créer la branche.
 
 Tagging - Étiquetage 
 ====================
@@ -349,6 +372,7 @@ Branch and checkout ::
  $ git checkout -b iss53
 
 This is shorthand for ::
+
  $ git branch iss53
  $ git checkout iss53
  
