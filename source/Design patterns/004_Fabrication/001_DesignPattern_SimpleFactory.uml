@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_bEpGQMIJEeanpb2gz65HAQ" name="RootElement">
+  <packagedElement xmi:type="uml:Class" xmi:id="_5LsZYMIJEeanpb2gz65HAQ" name="Client">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_VEMU0MILEeanpb2gz65HAQ" name="creator (simplefactory)" type="_MsW8oMIKEeanpb2gz65HAQ" association="_VD-SYMILEeanpb2gz65HAQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MsW8oMIKEeanpb2gz65HAQ" name="Creator (SimpleFactory)">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_WMHmMMILEeanpb2gz65HAQ" name="product" type="_HWhq8MILEeanpb2gz65HAQ" association="_WMG_IMILEeanpb2gz65HAQ"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Rv1dkMIKEeanpb2gz65HAQ" name="FactoryMethod"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_t5AHsMIKEeanpb2gz65HAQ" name="ConcreteProductA">
+    <generalization xmi:type="uml:Generalization" xmi:id="_KOOQ0MILEeanpb2gz65HAQ" general="_HWhq8MILEeanpb2gz65HAQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_HWhq8MILEeanpb2gz65HAQ" name="Product" isAbstract="true"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_VD-SYMILEeanpb2gz65HAQ" memberEnd="_VEMU0MILEeanpb2gz65HAQ _VEM74MILEeanpb2gz65HAQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VEB8wMILEeanpb2gz65HAQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VECj0MILEeanpb2gz65HAQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_VEM74MILEeanpb2gz65HAQ" name="client" type="_5LsZYMIJEeanpb2gz65HAQ" association="_VD-SYMILEeanpb2gz65HAQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_WMG_IMILEeanpb2gz65HAQ" memberEnd="_WMHmMMILEeanpb2gz65HAQ _WMHmMcILEeanpb2gz65HAQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WMG_IcILEeanpb2gz65HAQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WMG_IsILEeanpb2gz65HAQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_WMHmMcILEeanpb2gz65HAQ" name="creator (simplefactory)" type="_MsW8oMIKEeanpb2gz65HAQ" association="_WMG_IMILEeanpb2gz65HAQ"/>
+  </packagedElement>
+</uml:Model>

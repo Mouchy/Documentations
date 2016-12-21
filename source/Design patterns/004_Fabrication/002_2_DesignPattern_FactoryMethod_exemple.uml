@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_wfm5IBuhEeOap6IIE4eqWA" name="model">
+  <packagedElement xmi:type="uml:Class" xmi:id="_ybnS0BuhEeOap6IIE4eqWA" name="Pizza" isAbstract="true"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_76xU4BuhEeOap6IIE4eqWA" name="Pizzeria" isAbstract="true">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_jtiNcBukEeOap6IIE4eqWA" name="CommanderPizza">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_34S2kBukEeOap6IIE4eqWA" name="types"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_MAFEMBulEeOap6IIE4eqWA" name="creerPizza" isAbstract="true">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_QDZIoBulEeOap6IIE4eqWA" name="types"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_uinLgBuiEeOap6IIE4eqWA" name="PizzeriaBrest">
+    <generalization xmi:type="uml:Generalization" xmi:id="_tnc_QBusEeOap6IIE4eqWA" general="_76xU4BuhEeOap6IIE4eqWA"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_TfusoBulEeOap6IIE4eqWA" name="creerPizza"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_v17NgBuiEeOap6IIE4eqWA" name="PizzeriaStrasbourg">
+    <generalization xmi:type="uml:Generalization" xmi:id="_tGlG0BusEeOap6IIE4eqWA" general="_76xU4BuhEeOap6IIE4eqWA"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_pj_J0BusEeOap6IIE4eqWA" name="creerPizza"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="__Kv9QBu0EeOap6IIE4eqWA" name="PizzaFromageStyleBrest">
+    <generalization xmi:type="uml:Generalization" xmi:id="_wZHQ8BvgEeOC-LOeC0BbCA" general="_ybnS0BuhEeOap6IIE4eqWA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tAWlYBvgEeOC-LOeC0BbCA" name="PizzaFromageStyleStrasbourg">
+    <generalization xmi:type="uml:Generalization" xmi:id="_v7YzIBvgEeOC-LOeC0BbCA" general="_ybnS0BuhEeOap6IIE4eqWA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_5vqwoBvgEeOC-LOeC0BbCA" name="Dependency1" client="_v17NgBuiEeOap6IIE4eqWA" supplier="_tAWlYBvgEeOC-LOeC0BbCA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_6y2E4BvgEeOC-LOeC0BbCA" name="Dependency2" client="_uinLgBuiEeOap6IIE4eqWA" supplier="__Kv9QBu0EeOap6IIE4eqWA"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_cFfKQBvhEeOC-LOeC0BbCA" name="PizzaVegetarienneStyleBrest"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_rilKYBvhEeOC-LOeC0BbCA" name="PizzaVegetarienneStyleStrasbourg"/>
+</uml:Model>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_ifjyUBPsEeOqi6-cBhhYKA" name="model">
+  <packagedElement xmi:type="uml:Interface" xmi:id="_limskBPsEeOqi6-cBhhYKA" name="IStrategy">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ElDQ8BPtEeOqi6-cBhhYKA" name="BehaviorInterface"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_KVIZMBPtEeOqi6-cBhhYKA" name="Context">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_7p2jMRR-EeOaHspM9sgxrw" name="strategy" visibility="private" type="_limskBPsEeOqi6-cBhhYKA"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_KmNQ8Rb0EeOI9bjbjduqeQ" name="Some_methodes"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_DldmwxPuEeOqi6-cBhhYKA" name="" memberEnd="_DldmxBPuEeOqi6-cBhhYKA _DldmwBPuEeOqi6-cBhhYKA">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_DldmwBPuEeOqi6-cBhhYKA" name="" type="_limskBPsEeOqi6-cBhhYKA" aggregation="composite" association="_DldmwxPuEeOqi6-cBhhYKA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DldmwhPuEeOqi6-cBhhYKA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DldmwRPuEeOqi6-cBhhYKA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_DldmxBPuEeOqi6-cBhhYKA" name="" type="_KVIZMBPtEeOqi6-cBhhYKA" association="_DldmwxPuEeOqi6-cBhhYKA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DldmxhPuEeOqi6-cBhhYKA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DldmxRPuEeOqi6-cBhhYKA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_PppVoBb0EeOI9bjbjduqeQ" name="ConcreteStrategyA">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_kPf_UBb0EeOI9bjbjduqeQ" name="InterfaceRealization1" client="_PppVoBb0EeOI9bjbjduqeQ" supplier="_limskBPsEeOqi6-cBhhYKA" contract="_limskBPsEeOqi6-cBhhYKA"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_XfnzYBb0EeOI9bjbjduqeQ" name="BehaviorInterface"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_UZTisBb0EeOI9bjbjduqeQ" name="ConcreteStrategyB">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_gfOysBb0EeOI9bjbjduqeQ" name="InterfaceRealization1" client="_UZTisBb0EeOI9bjbjduqeQ" supplier="_limskBPsEeOqi6-cBhhYKA" contract="_limskBPsEeOqi6-cBhhYKA"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_YD6zQBb0EeOI9bjbjduqeQ" name="BehaviorInterface"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_ewPhUBb0EeOI9bjbjduqeQ" name="Realization1" client="_PppVoBb0EeOI9bjbjduqeQ" supplier="_limskBPsEeOqi6-cBhhYKA"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_qS6TQBb0EeOI9bjbjduqeQ" name="ConcreteStrategyC">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_uzil0Bb0EeOI9bjbjduqeQ" name="InterfaceRealization1" client="_qS6TQBb0EeOI9bjbjduqeQ" supplier="_limskBPsEeOqi6-cBhhYKA" contract="_limskBPsEeOqi6-cBhhYKA"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_tDp8kBb0EeOI9bjbjduqeQ" name="BehaviorInterface"/>
+  </packagedElement>
+</uml:Model>

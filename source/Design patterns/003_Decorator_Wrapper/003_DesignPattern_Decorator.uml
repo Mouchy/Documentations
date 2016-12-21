@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_33nWMLFREeajV7-bpC0_xA" name="RootElement">
+  <packagedElement xmi:type="uml:Class" xmi:id="_e0A5YLFSEeajV7-bpC0_xA" name="Component" isAbstract="true">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_l9y_gLFSEeajV7-bpC0_xA" name="operation" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_osCHYLFSEeajV7-bpC0_xA" name="Decorator" isAbstract="true">
+    <generalization xmi:type="uml:Generalization" xmi:id="_tjYbYLFTEeajV7-bpC0_xA" general="_e0A5YLFSEeajV7-bpC0_xA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ttnK4LFSEeajV7-bpC0_xA" name="component" visibility="private" type="_e0A5YLFSEeajV7-bpC0_xA"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_4ir3ALFSEeajV7-bpC0_xA" name="operation" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_8Bp4QLFSEeajV7-bpC0_xA" name="ConcreteDecorator">
+    <generalization xmi:type="uml:Generalization" xmi:id="_HWUqcLFTEeajV7-bpC0_xA" general="_osCHYLFSEeajV7-bpC0_xA"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_EaM3kLFTEeajV7-bpC0_xA" name="operation"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_YDKbMLFTEeajV7-bpC0_xA" memberEnd="_YDP6wLFTEeajV7-bpC0_xA _YDP6wbFTEeajV7-bpC0_xA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YDM3cLFTEeajV7-bpC0_xA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YDNegLFTEeajV7-bpC0_xA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YDP6wbFTEeajV7-bpC0_xA" name="component" type="_e0A5YLFSEeajV7-bpC0_xA" aggregation="shared" association="_YDKbMLFTEeajV7-bpC0_xA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YDP6wLFTEeajV7-bpC0_xA" name="decorator" type="_osCHYLFSEeajV7-bpC0_xA" association="_YDKbMLFTEeajV7-bpC0_xA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_o0d1MLFTEeajV7-bpC0_xA" name="ConcreteComponent">
+    <generalization xmi:type="uml:Generalization" xmi:id="_uDrFALFTEeajV7-bpC0_xA" general="_e0A5YLFSEeajV7-bpC0_xA"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_qyBHALFTEeajV7-bpC0_xA" name="operation"/>
+  </packagedElement>
+</uml:Model>

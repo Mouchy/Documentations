@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_YPAm8BvsEeOC-LOeC0BbCA" name="model">
+  <packagedElement xmi:type="uml:Class" xmi:id="_ak3EABvsEeOC-LOeC0BbCA" name="PizzeriaBrest">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_lIFyMBvsEeOC-LOeC0BbCA" name="creerPizza"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_oOCPcBvsEeOC-LOeC0BbCA" name="FabriqueIngredientsPizza">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_u4gjYBvsEeOC-LOeC0BbCA" name="creerPate"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_xWtEIBvsEeOC-LOeC0BbCA" name="creerSauce"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_zw85ABvsEeOC-LOeC0BbCA" name="creerFromage"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_2bmhYBvsEeOC-LOeC0BbCA" name="creeMoules"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_6JTiMBvsEeOC-LOeC0BbCA" name="creerLegumes"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_8k-TYBvsEeOC-LOeC0BbCA" name="creerPoivrons"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Dps6YBvtEeOC-LOeC0BbCA" name="FabriqueIngredientsPizzaBrest">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_T51hABvtEeOC-LOeC0BbCA" name="InterfaceRealization1" client="_Dps6YBvtEeOC-LOeC0BbCA" supplier="_oOCPcBvsEeOC-LOeC0BbCA" contract="_oOCPcBvsEeOC-LOeC0BbCA"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_XeIuMBvtEeOC-LOeC0BbCA" name="creerPate"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Y-9AsBvtEeOC-LOeC0BbCA" name="creerSauce"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_bN8AwBvtEeOC-LOeC0BbCA" name="creerFromage"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_c_2DQBvtEeOC-LOeC0BbCA" name="creerMoules"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_e6Ap4BvtEeOC-LOeC0BbCA" name="creerLegumes"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_gtahMBvtEeOC-LOeC0BbCA" name="creerPoivrons"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_DvxtMBvtEeOC-LOeC0BbCA" name="PateFine">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_YGaZsBvuEeOC-LOeC0BbCA" name="InterfaceRealization1" client="_DvxtMBvtEeOC-LOeC0BbCA" supplier="_Ri-h4BvuEeOC-LOeC0BbCA" contract="_Ri-h4BvuEeOC-LOeC0BbCA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_kUUWcBvtEeOC-LOeC0BbCA" name="FabriqueIngredientsPizzaStrasbourg">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_zLF9cBvtEeOC-LOeC0BbCA" name="InterfaceRealization1" client="_kUUWcBvtEeOC-LOeC0BbCA" supplier="_oOCPcBvsEeOC-LOeC0BbCA" contract="_oOCPcBvsEeOC-LOeC0BbCA"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_oFUi4BvtEeOC-LOeC0BbCA" name="creerPate"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_p4oTkBvtEeOC-LOeC0BbCA" name="creerSauce"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_rzePoBvtEeOC-LOeC0BbCA" name="creerFromage"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_tU4_EBvtEeOC-LOeC0BbCA" name="creerMoules"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_u7kpABvtEeOC-LOeC0BbCA" name="creerLegumes"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_wdoRoBvtEeOC-LOeC0BbCA" name="creerPoivrons"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Dx07oBvtEeOC-LOeC0BbCA" name="PateSouflee">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_YlKLMBvuEeOC-LOeC0BbCA" name="InterfaceRealization1" client="_Dx07oBvtEeOC-LOeC0BbCA" supplier="_Ri-h4BvuEeOC-LOeC0BbCA" contract="_Ri-h4BvuEeOC-LOeC0BbCA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_Ri-h4BvuEeOC-LOeC0BbCA" name="Pate"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_amiNEBvuEeOC-LOeC0BbCA" name="Dependency1" client="_ak3EABvsEeOC-LOeC0BbCA" supplier="_YPAm8BvsEeOC-LOeC0BbCA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_bg4VcBvuEeOC-LOeC0BbCA" name="Dependency2" client="_ak3EABvsEeOC-LOeC0BbCA" supplier="_oOCPcBvsEeOC-LOeC0BbCA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_edvvMBvuEeOC-LOeC0BbCA" name="Dependency3" client="_kUUWcBvtEeOC-LOeC0BbCA" supplier="_Dx07oBvtEeOC-LOeC0BbCA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_fJsPMBvuEeOC-LOeC0BbCA" name="" client="_Dps6YBvtEeOC-LOeC0BbCA" supplier="_DvxtMBvtEeOC-LOeC0BbCA"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_jjyb8BvuEeOC-LOeC0BbCA" name="Sauce"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_l8CswBvuEeOC-LOeC0BbCA" name="SauceTomateCerise">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_v2dHcBvuEeOC-LOeC0BbCA" name="InterfaceRealization1" client="_l8CswBvuEeOC-LOeC0BbCA" supplier="_jjyb8BvuEeOC-LOeC0BbCA" contract="_jjyb8BvuEeOC-LOeC0BbCA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_qIBlABvuEeOC-LOeC0BbCA" name="SauceMarinara">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_vbSOYBvuEeOC-LOeC0BbCA" name="InterfaceRealization1" client="_qIBlABvuEeOC-LOeC0BbCA" supplier="_jjyb8BvuEeOC-LOeC0BbCA" contract="_jjyb8BvuEeOC-LOeC0BbCA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_zZGu0BvuEeOC-LOeC0BbCA" name="Dependency4" client="_ak3EABvsEeOC-LOeC0BbCA" supplier="_jjyb8BvuEeOC-LOeC0BbCA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_GUCu0BvvEeOC-LOeC0BbCA" name="Dependency5" client="_kUUWcBvtEeOC-LOeC0BbCA" supplier="_l8CswBvuEeOC-LOeC0BbCA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_HTahIBvvEeOC-LOeC0BbCA" name="Dependency6" client="_Dps6YBvtEeOC-LOeC0BbCA" supplier="_qIBlABvuEeOC-LOeC0BbCA"/>
+</uml:Model>

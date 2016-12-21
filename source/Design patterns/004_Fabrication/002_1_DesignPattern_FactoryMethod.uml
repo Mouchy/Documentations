@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_4HRMQBlrEeOq-8xCjmYm-w" name="model">
+  <packagedElement xmi:type="uml:Class" xmi:id="_5J6VABlrEeOq-8xCjmYm-w" name="Creator" isAbstract="true">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_-VY7YBlrEeOq-8xCjmYm-w" name="FactoryMethod" isAbstract="true"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_QCZPwBoIEeOnV_QNs0apWA" name="anOperation"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_s9bbsBoIEeOnV_QNs0apWA" name="ConcreteProduct">
+    <generalization xmi:type="uml:Generalization" xmi:id="_pW3WMBvgEeOC-LOeC0BbCA" general="_nJTScBvgEeOC-LOeC0BbCA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_pgRk8BugEeOap6IIE4eqWA" name="Dependency1" client="_syotkBugEeOap6IIE4eqWA" supplier="_s9bbsBoIEeOnV_QNs0apWA"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_syotkBugEeOap6IIE4eqWA" name="ConcreteCreator">
+    <generalization xmi:type="uml:Generalization" xmi:id="_8G2egBugEeOap6IIE4eqWA" general="_5J6VABlrEeOq-8xCjmYm-w"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_u66osBugEeOap6IIE4eqWA" name="FactoryMethod"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_nJTScBvgEeOC-LOeC0BbCA" name="Product" isAbstract="true"/>
+</uml:Model>

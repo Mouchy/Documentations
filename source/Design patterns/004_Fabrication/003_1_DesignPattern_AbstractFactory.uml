@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_8aEFgLGEEeajV7-bpC0_xA" name="RootElement">
+  <packagedElement xmi:type="uml:Interface" xmi:id="_BTnOYLGFEeajV7-bpC0_xA" name="AbstractFactory">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_DmyK4LGFEeajV7-bpC0_xA" name="CreateProductA"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_HTjXkLGFEeajV7-bpC0_xA" name="CreateProductB"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_KR4J4LGFEeajV7-bpC0_xA" name="ConcreteFactory2">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_c9pFcLGFEeajV7-bpC0_xA" client="_KR4J4LGFEeajV7-bpC0_xA" supplier="_BTnOYLGFEeajV7-bpC0_xA" contract="_BTnOYLGFEeajV7-bpC0_xA"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_NANYYLGFEeajV7-bpC0_xA" name="CreateProductA"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_On02cLGFEeajV7-bpC0_xA" name="CreateProductB"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_QgV3QLGFEeajV7-bpC0_xA" name="ConcreteFactory1">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_cAkZMLGFEeajV7-bpC0_xA" client="_QgV3QLGFEeajV7-bpC0_xA" supplier="_BTnOYLGFEeajV7-bpC0_xA" contract="_BTnOYLGFEeajV7-bpC0_xA"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_SY5UULGFEeajV7-bpC0_xA" name="CreateProductA"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_T9SfQLGFEeajV7-bpC0_xA" name="CreateProductB"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ew-rULGFEeajV7-bpC0_xA" name="Client"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_hnvdELGFEeajV7-bpC0_xA" name="AbstractProductA"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_pWBXYLGFEeajV7-bpC0_xA" name="ProductA1">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_uvQs8LGFEeajV7-bpC0_xA" client="_pWBXYLGFEeajV7-bpC0_xA" supplier="_hnvdELGFEeajV7-bpC0_xA" contract="_hnvdELGFEeajV7-bpC0_xA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_pmO9oLGFEeajV7-bpC0_xA" name="ProductA2">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_uUbLELGFEeajV7-bpC0_xA" client="_pmO9oLGFEeajV7-bpC0_xA" supplier="_hnvdELGFEeajV7-bpC0_xA" contract="_hnvdELGFEeajV7-bpC0_xA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_xBcyALGFEeajV7-bpC0_xA" name="AbstractProductB"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_1hB7sLGFEeajV7-bpC0_xA" name="ProductB2">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_Bb2u8LGGEeajV7-bpC0_xA" client="_1hB7sLGFEeajV7-bpC0_xA" supplier="_xBcyALGFEeajV7-bpC0_xA" contract="_xBcyALGFEeajV7-bpC0_xA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_4V-IgLGFEeajV7-bpC0_xA" name="ProductB1">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_B3p6ILGGEeajV7-bpC0_xA" client="_4V-IgLGFEeajV7-bpC0_xA" supplier="_xBcyALGFEeajV7-bpC0_xA" contract="_xBcyALGFEeajV7-bpC0_xA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_Aep08LGIEeajV7-bpC0_xA" name="&lt;&lt;import>>" client="_ew-rULGFEeajV7-bpC0_xA" supplier="_BTnOYLGFEeajV7-bpC0_xA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_gLIi4LGKEeajV7-bpC0_xA" name="&lt;&lt;import>>" client="_ew-rULGFEeajV7-bpC0_xA" supplier="_hnvdELGFEeajV7-bpC0_xA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_nLHMwLGKEeajV7-bpC0_xA" name="&lt;&lt;import>>" client="_8aEFgLGEEeajV7-bpC0_xA" supplier="_xBcyALGFEeajV7-bpC0_xA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_yZwPcLGKEeajV7-bpC0_xA" name="&lt;&lt;instantiate>>" client="_QgV3QLGFEeajV7-bpC0_xA" supplier="_pWBXYLGFEeajV7-bpC0_xA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_2azqELGKEeajV7-bpC0_xA" name="&lt;&lt;instantiate>>" client="_QgV3QLGFEeajV7-bpC0_xA" supplier="_4V-IgLGFEeajV7-bpC0_xA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_417osLGKEeajV7-bpC0_xA" name="&lt;&lt;instantiate>>" client="_8aEFgLGEEeajV7-bpC0_xA" supplier="_pmO9oLGFEeajV7-bpC0_xA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_HWGGgLGLEeajV7-bpC0_xA" name="&lt;&lt;instantiate>>" client="_KR4J4LGFEeajV7-bpC0_xA" supplier="_1hB7sLGFEeajV7-bpC0_xA"/>
+</uml:Model>
