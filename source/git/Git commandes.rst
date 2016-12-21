@@ -58,6 +58,7 @@ Créer une copie de votre dépôt local ::
  git clone /path/to/repository
  
 serveur distant ::
+
  git clone username@host:/path/to/repository
 
 Votre dépôt local est composé de trois arbres géré par git le premier
@@ -336,7 +337,9 @@ the commit checksum (or part of it) at the end of the command 9fceb02 ::
 
 Partager les étiquettes
 -----------------------
-Par défaut, la commande git push ne transfère pas les étiquettes vers les serveurs distants. Il faut explicitement pousser les étiquettes après les avoir créées localement. Ce processus s'apparente à pousser des branches distantes
+Par défaut, la commande git push ne transfère pas les étiquettes vers les serveurs distants. 
+Il faut explicitement pousser les étiquettes après les avoir créées localement. 
+Ce processus s'apparente à pousser des branches distantes ::
 
  git push origin [nom-du-tag]
 
