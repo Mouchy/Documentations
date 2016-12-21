@@ -1,6 +1,11 @@
 symfony database
 ################
 
+.. _symfony_database:
+
+Configuration
+*************
+
 Ajout de l’utilisateur manu comme super utilisateur ::
 
  GRANT ALL PRIVILEGES ON *.* TO manu@localhost

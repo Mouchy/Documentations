@@ -127,7 +127,7 @@ J'ai déclaré la route dans routing.yml ::
 
  greetings:
     type: rest
-    resource: SD\SnowydayBundle\Controller\GreetingsControlle
+    resource: SD\SnowydayBundle\Controller\GreetingsController
 
 J'obtiens avec php bin/console debug:router la route ci-dessous ::
  
@@ -137,7 +137,7 @@ ce qui donne ::
 
  curl -X GET -H "Accept:application/json" https://snowyday-man.c9users.io/web/app_dev.php/hello
 
-Dans ce cas précis je ne peux pas utiliser de majuscule comme premiére lettre celle-ci est enlever par FOSRestBundle pour une raisone que je ne connais pas encore.
+Dans ce cas précis je ne peux pas utiliser de majuscule comme premiére lettre celle-ci est enlever par FOSRestBundle pour une raison que j'ignore.
 Je peux déclarer autant de fonctions que je le souhaite mais elles seront de type get.
 Il est possible qu'il y ait un risque de collision avec les noms des méthodes et une  autre classe.
 Si je souhaite changer le type GET de la fonction je dois préfixer celle ci avec la protocole que je souhaite utiliser voir exemple ci-dessous.
@@ -199,7 +199,7 @@ Je le type rest cela indique à FOSRestBundle de prendre en charge cette route. 
  /app/config/routing.yml
  greetings:
     type: rest
-    resource: SD\SnowydayBundle\Controller\GreetingsControlle
+    resource: SD\SnowydayBundle\Controller\GreetingsController
 
 Normalement le nouveau controleur Rest est fonctionnel.
 On peut le tester à l'aide de la commande ::
