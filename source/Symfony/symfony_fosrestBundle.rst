@@ -10,7 +10,7 @@ https://github.com/gimler/symfony-rest-edition
 
 Download the Bundle ::
 
- php composer.phar require friendsofsymfony/rest-bundle @stable
+ php composer.phar require friendsofsymfony/user-bundle "~2.0@dev"
 
 Enable the Bundle ::
 

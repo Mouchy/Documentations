@@ -47,10 +47,9 @@ Puis créer la classe Customer.php ::
  class Customer extends BaseUser
  {
 
-    /**
+     /**
      * @ORM\Id
-     * @ORM\Column(type="integer")
-     * @ORM\GeneratedValue(strategy="AUTO")
+     * @ORM\Column(type="string")
      */
     protected $id;
 
@@ -97,7 +96,7 @@ Création d'un utilisateur
 *************************
 Pour créer un utilisateur dans la base ::
 
- php bin/symfony fos:user:create
+ php bin/console fos:user:create
 
 Et on saisie les informations que l'on nous demande.
 
@@ -138,14 +137,35 @@ Et on peut tester cette nouvelle route avec ::
 
  curl -X GET -H "Accept:application/json" https://snowyday-man.c9users.io/web/app_dev.php/customers
 
+Accés avec POST
+***************
+customer est le nom de la form et le reste les noms des champs. Il faut bien penser à mettre le nom de la form dans la requete post.
+la fonction handleRequest essaie de merger les données reçue ($request) avec la form $customerForm.
+isSubmitted vérifie que les données viennent bien de l'appuie du bouton submit de la form généré. Normalement on rentre une premiére fois dans la fonction postAction on génére le formulaire à l'écran.
+Puis ensuite l'utilisateur remplit les champs et valide sa saisie avec le bouton submit et on retourne une nouvelle fois dans la fonction postAction pour valider les données.
+La fonction isValid valide les contraintes sur les données si il y en a (dans notre cas il n'y en a pas) ::
 
+ public function postAction(Request $request)
+    {
+        $customer = new Customer();
+        $customerForm = $this->createForm(CustomerType::class, $customer);
+      
+        $customerForm->handleRequest($request);
+      
+        if ($customerForm->isSubmitted() && $customerForm->isValid()) {
+            $em = $this->getDoctrine()->getEntityManager();
+            $em->persist($customer);
+            $em->flush();
+            return $customer;
+        }
+        return $customerForm->getErrors();
+    }
 
+Et on peut tester le post avec la ligne ci-desssous  ::
 
-
-curl -X POST -H "Content-Type: application/json" -d '{"username": "yasmany","email": "yasmanycm@gmail.com","password": "ok"} https://snowyday-man.c9users.io/web/app_dev.php/customers > test.html
-
-
-{"username": "yasmany","email": "yasmanycm@gmail.com","password": "ok"}
-
+ curl -v -X POST -H "Content-Type: application/json" -d '{"customer":{"username": "yasmany","email": "yasmanycm@gmail.com","password": "ok"}}' https://snowyday-man.c9users.io/web/app_dev.php/customers  
+                                                                                                
+  
+Pour la partie documentation formulaire j'ai trouvé un cours sur symfony qui aborde les formulaires qui m'a permis d'avancer sur ce sujet.
  
 

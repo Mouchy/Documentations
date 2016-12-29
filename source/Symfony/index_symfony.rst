@@ -10,4 +10,6 @@ Symfony
    symfony_database
    symfony_fosrestBundle
    symfony_fosuserBundle
+   symfony_BazingaHateoasBundle
+   symfony_fosOAuthServerBundle
    Commandes_symfony
