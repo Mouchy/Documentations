@@ -165,4 +165,106 @@ id -Gn [user]
 -p - Make the output human-readable.
 
 
+Editeur VI
+**********
 
+L'éditeur Unix par défaut se nomme vi (visual editor). S'il n'est pas des plus ergonomiques par
+rapport à des éditeurs en mode graphique, il a l'avantage d'être disponible et d'utiliser la même
+syntaxe de base sur tous les Unix. Chaque Unix propose généralement une syntaxe étendue au-delà
+de la syntaxe de base. Pour en connaître les détails : man vi ::
+
+ vi [options] Fichier [Fichier2 ...]
+
+Trois modes de fonctionnement :
+1. mode commande : les saisies représentent des commandes. On y accède en appuyant sur « Echap ».
+#. mode saisie : saisie de texte classique
+#. mode ligne de commande « à la ex » :utilisation de commandes spéciales saisies et se terminant par Entrée. Accès pas la touche « : ».
+
+5.1 Commandes de saisie
+=======================
+En mode commande
+
++----------+-------------------------------------------------------------+
+| Commande | Action                                                      |
++==========+=============================================================+
+| a        | Ajout de texte derrière le caractère actif                  |
++----------+-------------------------------------------------------------+
+| A        | Ajout de texte en fin de ligne                              |
++----------+-------------------------------------------------------------+
+| i        | Insertion de texte devant le caractère actif                |
++----------+-------------------------------------------------------------+
+| I        | Insertion de texte en début de ligne                        |
++----------+-------------------------------------------------------------+
+| o        | Insertion d'une nouvelle ligne sous la ligne active         |
++----------+-------------------------------------------------------------+
+| O        | Insertion d'une nouvelle ligne au-dessus de la ligne active |
++----------+-------------------------------------------------------------+
+
+5.2 Quitter
+===========
+1. La commande ZZ quitte et sauve le fichier
+#. :q! quitte sans sauver
+#. :q quitte si le fichier n'a pas été modifié
+#. :w sauve le fichier
+#. :wq ou x sauve et quitte
+
+5.3 Déplacement en mode commande
+================================
++----------+------------------------------------+
+| Commande | Action                             |
++==========+====================================+
+| h        | Vers la gauche                     |
++----------+------------------------------------+
+| l        | Vers la droite                     |
++----------+------------------------------------+
+| k        | Vers le haut                       |
++----------+------------------------------------+
+| j        | Vers le bas                        |
++----------+------------------------------------+
+| 0 (zéro) | Début de ligne (:0 première ligne) |
++----------+------------------------------------+
+| $        | Fin de ligne (:$ dernière ligne)   |
++----------+------------------------------------+
+| w        | Mot suivant                        |
++----------+------------------------------------+
+| b        | Mot précédent                      |
++----------+------------------------------------+
+| fc       | Saut sur le caractère 'c'          |
++----------+------------------------------------+
+| Ctrl + F | Remonte d'un écran                 |
++----------+------------------------------------+
+| Ctrl + B | Descend d'un écran                 |
++----------+------------------------------------+
+| G        | Dernière ligne du fichier          |
++----------+------------------------------------+
+| NG       | Saute à la ligne 'n'(:n identique) |
++----------+------------------------------------+
+
+5.4 Correction
+==============
++----------+---------------------------------------------------------------------------------+
+| Commande | Action                                                                          |
++==========+=================================================================================+
+| x        | Efface le caractère sous le curseur                                             |
++----------+---------------------------------------------------------------------------------+
+| X        | Efface le caractère devant le curseur                                           |
++----------+---------------------------------------------------------------------------------+
+| rc       | Remplace le caractère sous le curseur par le caractère 'c'                      |
++----------+---------------------------------------------------------------------------------+
+| dw       | Efface le mot depuis le curseur jusqu'à la fin du mot                           |
++----------+---------------------------------------------------------------------------------+
+| d$ (ou D)| Efface tous les caractères jusqu'à la fin de la ligne                           |
++----------+---------------------------------------------------------------------------------+
+| dO       | Efface tous les caractères jusqu'au début de la ligne.                          |
++----------+---------------------------------------------------------------------------------+
+| dfc      | Efface tous les caractères de la ligne jusqu'au caractère 'c'                   |
++----------+---------------------------------------------------------------------------------+
+| dG       | Efface tous les caractères jusqu'à la dernière ligne, ainsi que la ligne active |
++----------+---------------------------------------------------------------------------------+
+| D1G      | Efface tous les caractères jusqu'à la première ligne, ainsi que la ligne active |
++----------+---------------------------------------------------------------------------------+
+| dd       | Efface la ligne active                                                          |
++----------+---------------------------------------------------------------------------------+
+
+Ces commandes peuvent être répétées. 5Dd supprime 5 lignes.
+On peut annuler la dernière modification avec la commande « u ».

@@ -6,7 +6,7 @@ BazingaHateoasBundle
 
 Download the Bundle ::
 
- composer require willdurand/hateoas-bundle
+ php composer.phar require willdurand/hateoas-bundle
 
 
 Enable the Bundle ::
@@ -24,3 +24,10 @@ Enable the Bundle ::
         // ...
     }
  }
+ 
+BazingaHateoasBundle utilisation
+********************************
+
+Ce bundle permet de renvoyer des informations complémentaires au client.
+Notament sous la forme de liens. 
+Par exemple si je me connecte avec un user je peux proposer en retour un lien sur lien sur les informations de cette utilisateur.
