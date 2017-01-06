@@ -268,3 +268,133 @@ En mode commande
 
 Ces commandes peuvent être répétées. 5Dd supprime 5 lignes.
 On peut annuler la dernière modification avec la commande « u ».
+
+Recherche dans le texte
+=======================
+Contrairement à un éditeur de texte classique, vi peut rechercher autre chose que des mots simples
+et fonctionne à l'aide de caractères spéciaux et de critères. La commande de recherche est le
+caractère « / ». La recherche démarre du caractère courant à la fin du fichier. Le caractère « ? »
+effectue la recherche en sens inverse. On indique ensuite le critère, puis Entrée ::
+
+/echo
+
+recherche la chaîne 'echo'dans la suite du fichier. Quand la chaîne est trouvée, le curseur s'arrête
+sur le premier caractère de cette chaîne.
+La commande « n » permet de continuer la recherche dans le sens indiqué au début. La commande
+« N » effectue la recherche en sens inverse.
+S.ROHAUT Cours shell Unix Page 21/93
+
+Quelques critères
+=================
+
+* /[FfBb]oule : Foule, foule, Boule, boule
+* /[A-Z]e : Tout ce qui commence par une majuscule avec un e en deuxième position.
+* /[A-Za-Z0-9] : tout ce qui commence par une majuscule, minuscule ou un chiffre
+* /[^a-z] : plage négative : tout ce qui ne commence pas par une minuscule
+* /vé.o : le point remplace un caractère, vélo, véto, véro, ...
+* /Au*o : l'étoile est un caractère de répétition, de 0 à n caractères, Auo, Auto, Automoto, ...
+* /.* : l'étoile devant le point, une chaîne quelconque de taille variable
+* /[A-Z][A-Z]* : répétition du motif entre [] de 0 à n fois, recherche d'un mot comportant au moins une majuscule (en début de mot)
+* /^Auto : le ^ indique que la chaîne recherchée devra être en début de ligne
+* /Auto$ : le $ indique que la chaîne recherchée devra être en fin de ligne
+
+Quelques commandes de remplacement
+==================================
+
+Pour remplacer du texte, il faut se placer au début de la chaîne à modifier, puis taper l'une des
+commandes suivantes.
+
++----------------+--------------------------------------------------------------------+
+| Commande       |Action                                                              |
++================+====================================================================+
+| cw             | Remplacement du mot courant                                        |
++----------------+--------------------------------------------------------------------+
+| c$             | Remplacement jusqu'à la fin de la ligne                            |
++----------------+--------------------------------------------------------------------+
+| cO             | Remplacement jusqu'au début de la ligne                            |
++----------------+--------------------------------------------------------------------+
+| cfx            | Remplacement jusqu'au prochain caractère 'x'dans la ligne courante |
++----------------+--------------------------------------------------------------------+
+|c/Auto (Entrée) | Remplacement jusqu'à la prochaîne occurrence de la chaîne 'Auto'   |
++----------------+--------------------------------------------------------------------+
+
+Après cette saisie, le caractère $ apparaît en fin de zone à modifier. Il suffit alors de taper son texte
+et d'appuyer sur Echap.
+
+Copier-Coller
+=============
+
+On utilise la commande « y » (Yank) pour copier du texte, elle-même devant être combinée avec
+d'autres indications. Pour couper (déplacer), c'est la commande « d ». Pour coller le texte à l'endroit
+choisi, c'est la commande « p » (derrière le caractère) ou « P » (devant le caractère). Si c'est une
+ligne complète qui a été copiée, elle sera placée en-dessous de la ligne active.
+
+Pour copier une ligne : yy
+
+Pour copier cinq lignes : 5yy
+
+Pour placer les lignes copiées à un endroit donné : p
+
+L'éditeur vi dispose de 26 tampons pour y stocker les données que l'on peut nommer comme on le
+souhaite. On utilise pour ça le « " ».
+
+Pour copier cinq mots dans la mémoire m1 : "m1y5w
+
+Pour coller le contenu de la mémoire m1 à un endroit donnée : "m1p
+
+Substitution
+============
+
+La substitution permet de remplacer automatiquement plusieurs occurrences par une autre chaîne ::
+
+ :[1ere ligne, dernière ligne]s/Modèle/Remplacement/[gc]
+
+Les numéros de lignes sont optionnels. Dans ce cas la substitution ne se fait que sur la ligne
+courante. En remplacement des numéros de lignes, « . » détermine la ligne courante, « 1 » la
+première ligne, « $ » la dernière ligne.
+
+Le modèle est l'un des modèles présenté plus tôt. Remplacement est une chaîne quelconque qui
+remplacera le modèle.
+
+Par défaut seule la première occurrence est remplacée. La lettre « g » indique qu'il faut remplacer
+toutes les occurrences. Avec « c », vi demande une confirmation pour chacune des occurrences ::
+
+ :1,$s/[Uu]nix/UNIX/g
+
+Cet exemple remplace, dans tout le fichier, Unix ou unix par UNIX.
+
+Autres en ligne de commande
+===========================
+
++----------------+--------------------------------------------------------------------------------------+
+| Commande       | Action                                                                               |
++================+======================================================================================+
+| :w Nom_fic     | Sauve le fichier sous Nom_fic, en l'écrasant ou en le créant                         |
++----------------+--------------------------------------------------------------------------------------+
+| :1,10w Nom_fic | Sauve les lignes 1 à 10 dans Nom_fic                                                 |
++----------------+--------------------------------------------------------------------------------------+
+| :r Nom_fic     | Insère le fichier Nom_fic à partir de la ligne courante                              |
++----------------+--------------------------------------------------------------------------------------+
+| :! commande    | Exécute la commande puis retourne à l'éditeur                                        |
++----------------+--------------------------------------------------------------------------------------+
+| :r! commande   | Exécute la commande et insère le résultat à partir de la ligne courante              |
++----------------+--------------------------------------------------------------------------------------+
+| :f Nom_fic     | Affiche en bas d'écran le nom du fichier, le nombre de ligne et la position actuelle |
++----------------+--------------------------------------------------------------------------------------+
+| :e Nom_fic     | Le fichier est chargé. Un message indique si le précédent a été modifié              |
++----------------+--------------------------------------------------------------------------------------+
+| :e #           | Le dernier fichier chargé est affiché. Permet de commuter entre les fichiers         |
++----------------+--------------------------------------------------------------------------------------+
+
+Commande set
+============
+
+La commande set permet de configurer l'éditeur.
+
+* set all : affiche l'ensemble des options possibles
+* set number (ou nu) / nonumber (ou nonu) : affiche / supprime les numéros de lignes.
+* set autoindent / noautoindent : l'indentation est concervée lors d'un retour à la ligne.
+* set showmatch / noshowmatch : lors de la saisie d'une accolade ou d'une parenthèse de
+* fermeture, celle d'ouverture est affichée un très court instant, puis l'éditeur revient au caractère courant.
+* set showmode / noshowmode : vi affichera une ligne d'état (INPUT MODE).
+* set tabstop=x : définit le nombre de caractères pour une tabulation.
