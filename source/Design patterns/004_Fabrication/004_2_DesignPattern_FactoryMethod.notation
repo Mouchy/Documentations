@@ -19,11 +19,11 @@
     </children>
     <children xmi:type="notation:BasicCompartment" xmi:id="_5J6VDxlrEeOq-8xCjmYm-w" type="7018">
       <children xmi:type="notation:Shape" xmi:id="_-VisYBlrEeOq-8xCjmYm-w" type="3013" fontName="Segoe UI" lineColor="0">
-        <element xmi:type="uml:Operation" href="002_1_DesignPattern_FactoryMethod.uml#_-VY7YBlrEeOq-8xCjmYm-w"/>
+        <element xmi:type="uml:Operation" href="004_2_DesignPattern_FactoryMethod.uml#_-VY7YBlrEeOq-8xCjmYm-w"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_-VisYRlrEeOq-8xCjmYm-w"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_QEkaABoIEeOnV_QNs0apWA" type="3013" fontName="Segoe UI" lineColor="0">
-        <element xmi:type="uml:Operation" href="002_1_DesignPattern_FactoryMethod.uml#_QCZPwBoIEeOnV_QNs0apWA"/>
+        <element xmi:type="uml:Operation" href="004_2_DesignPattern_FactoryMethod.uml#_QCZPwBoIEeOnV_QNs0apWA"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_QEkaARoIEeOnV_QNs0apWA"/>
       </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_5J6VEBlrEeOq-8xCjmYm-w"/>
@@ -40,7 +40,7 @@
     <children xmi:type="notation:DecorationNode" xmi:id="_my8kgK2REeawzszw9y3mXA" type="8510">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_my8kga2REeawzszw9y3mXA" y="5"/>
     </children>
-    <element xmi:type="uml:Class" href="002_1_DesignPattern_FactoryMethod.uml#_5J6VABlrEeOq-8xCjmYm-w"/>
+    <element xmi:type="uml:Class" href="004_2_DesignPattern_FactoryMethod.uml#_5J6VABlrEeOq-8xCjmYm-w"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5J6VAhlrEeOq-8xCjmYm-w" x="311" y="33"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_s94HoBoIEeOnV_QNs0apWA" type="2008" fontName="Segoe UI" lineColor="0">
@@ -75,7 +75,7 @@
     <children xmi:type="notation:DecorationNode" xmi:id="_my8kgq2REeawzszw9y3mXA" type="8510">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_my8kg62REeawzszw9y3mXA" y="5"/>
     </children>
-    <element xmi:type="uml:Class" href="002_1_DesignPattern_FactoryMethod.uml#_s9bbsBoIEeOnV_QNs0apWA"/>
+    <element xmi:type="uml:Class" href="004_2_DesignPattern_FactoryMethod.uml#_s9bbsBoIEeOnV_QNs0apWA"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s94HoRoIEeOnV_QNs0apWA" x="60" y="240"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_syyekBugEeOap6IIE4eqWA" type="2008" fontName="Segoe UI" lineColor="0">
@@ -97,7 +97,7 @@
     </children>
     <children xmi:type="notation:BasicCompartment" xmi:id="_syyenhugEeOap6IIE4eqWA" type="7018">
       <children xmi:type="notation:Shape" xmi:id="_u7DyoBugEeOap6IIE4eqWA" type="3013" fontName="Segoe UI" lineColor="0">
-        <element xmi:type="uml:Operation" href="002_1_DesignPattern_FactoryMethod.uml#_u66osBugEeOap6IIE4eqWA"/>
+        <element xmi:type="uml:Operation" href="004_2_DesignPattern_FactoryMethod.uml#_u66osBugEeOap6IIE4eqWA"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_u7DyoRugEeOap6IIE4eqWA"/>
       </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_syyenxugEeOap6IIE4eqWA"/>
@@ -114,7 +114,7 @@
     <children xmi:type="notation:DecorationNode" xmi:id="_my8khK2REeawzszw9y3mXA" type="8510">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_my8kha2REeawzszw9y3mXA" y="5"/>
     </children>
-    <element xmi:type="uml:Class" href="002_1_DesignPattern_FactoryMethod.uml#_syotkBugEeOap6IIE4eqWA"/>
+    <element xmi:type="uml:Class" href="004_2_DesignPattern_FactoryMethod.uml#_syotkBugEeOap6IIE4eqWA"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_syyekRugEeOap6IIE4eqWA" x="312" y="240"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_nN1NIBvgEeOC-LOeC0BbCA" type="2008" fontName="Segoe UI" lineColor="0">
@@ -149,12 +149,12 @@
     <children xmi:type="notation:DecorationNode" xmi:id="_my8khq2REeawzszw9y3mXA" type="8510">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_my8kh62REeawzszw9y3mXA" y="5"/>
     </children>
-    <element xmi:type="uml:Class" href="002_1_DesignPattern_FactoryMethod.uml#_nJTScBvgEeOC-LOeC0BbCA"/>
+    <element xmi:type="uml:Class" href="004_2_DesignPattern_FactoryMethod.uml#_nJTScBvgEeOC-LOeC0BbCA"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nN1NIRvgEeOC-LOeC0BbCA" x="60" y="30"/>
   </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_4HRMQhlrEeOq-8xCjmYm-w"/>
   <styles xmi:type="notation:StringValueStyle" xmi:id="_my8kiK2REeawzszw9y3mXA" name="diagram_compatibility_version" stringValue="1.1.0"/>
-  <element xmi:type="uml:Model" href="002_1_DesignPattern_FactoryMethod.uml#_4HRMQBlrEeOq-8xCjmYm-w"/>
+  <element xmi:type="uml:Model" href="004_2_DesignPattern_FactoryMethod.uml#_4HRMQBlrEeOq-8xCjmYm-w"/>
   <edges xmi:type="notation:Connector" xmi:id="_phUGwBugEeOap6IIE4eqWA" type="4008" source="_syyekBugEeOap6IIE4eqWA" target="_s94HoBoIEeOnV_QNs0apWA" lineColor="0">
     <children xmi:type="notation:DecorationNode" xmi:id="_phUGwxugEeOap6IIE4eqWA" type="6026">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_phUGxBugEeOap6IIE4eqWA" x="-16" y="22"/>
@@ -163,7 +163,7 @@
       <layoutConstraint xmi:type="notation:Location" xmi:id="_phUGxhugEeOap6IIE4eqWA" y="60"/>
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_phUGwRugEeOap6IIE4eqWA" fontName="Segoe UI"/>
-    <element xmi:type="uml:Dependency" href="002_1_DesignPattern_FactoryMethod.uml#_pgRk8BugEeOap6IIE4eqWA"/>
+    <element xmi:type="uml:Dependency" href="004_2_DesignPattern_FactoryMethod.uml#_pgRk8BugEeOap6IIE4eqWA"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_phUGwhugEeOap6IIE4eqWA" points="[-26, -3, 297, 22]$[-299, -15, 24, 10]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_phdQsBugEeOap6IIE4eqWA" id="(0.02654867256637168,0.5)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_phdQsRugEeOap6IIE4eqWA" id="(0.98,0.53)"/>
@@ -173,7 +173,7 @@
       <layoutConstraint xmi:type="notation:Location" xmi:id="_8HJZcRugEeOap6IIE4eqWA" y="40"/>
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_8G_ocRugEeOap6IIE4eqWA" fontName="Segoe UI"/>
-    <element xmi:type="uml:Generalization" href="002_1_DesignPattern_FactoryMethod.uml#_8G2egBugEeOap6IIE4eqWA"/>
+    <element xmi:type="uml:Generalization" href="004_2_DesignPattern_FactoryMethod.uml#_8G2egBugEeOap6IIE4eqWA"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8G_ochugEeOap6IIE4eqWA" points="[1, -18, 2, 153]$[56, -168, 57, 3]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8HJZchugEeOap6IIE4eqWA" id="(0.44696969696969696,0.0)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_o3P-kK2REeawzszw9y3mXA" id="(0.4580152671755725,1.0)"/>
@@ -183,7 +183,7 @@
       <layoutConstraint xmi:type="notation:Location" xmi:id="_pYVV0BvgEeOC-LOeC0BbCA" y="40"/>
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_pYREYRvgEeOC-LOeC0BbCA" fontName="Segoe UI"/>
-    <element xmi:type="uml:Generalization" href="002_1_DesignPattern_FactoryMethod.uml#_pW3WMBvgEeOC-LOeC0BbCA"/>
+    <element xmi:type="uml:Generalization" href="004_2_DesignPattern_FactoryMethod.uml#_pW3WMBvgEeOC-LOeC0BbCA"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_pYREYhvgEeOC-LOeC0BbCA" points="[4, -50, -15, 90]$[11, -90, -8, 50]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nexd0K2TEeawzszw9y3mXA" id="(0.48,0.0)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ne-5MK2TEeawzszw9y3mXA" id="(0.48,1.0)"/>

@@ -1,10 +1,26 @@
 symfonycloud9
 #############
 
+CLOUD9 PHPMYADMIN
+*****************
+
+Sur cloud9 phpmyadmin n'est pas installé par default il faut le rajouter ::
+
+ phpmyadmin-ctl install
+
+puis on peut accéder avec l'adresse ::
+
+ https://[workspacename]-[username].c9users.io/phpmyadmin
+
+Puis on peut faire un login avec root sans mot de passe qu'il faudra bien sur ajouter par la suite.
+Il faut peut etre tester cette commande lors de l'installation de PHP7 ci-dessous
+
+
 CLOUD9-PHP7
 ***********
 Par defaut sur cloud9 on est dans une version 5.x de PHP pour se positionner 
-en version 7 faire les commandes ci-dessous. Arpés ces commandes on n'aura plus accés à PHPMYADMIN.
+en version 7 faire les commandes ci-dessous. Après ces commandes on n'aura plus accés à PHPMYADMIN.
+Tester la commande suivante pour rétablir phpmyadmin phpmyadmin-ctl install
 Je n'ai pas encore réussi à le réinstaller. ::
 
  sudo add-apt-repository ppa:ondrej/php
@@ -39,13 +55,15 @@ Ajout de l'utilisateur manu comme super utilisateur ::
 CLOUD9-COMPOSER
 ***************
 Pour récupérer composer (composer.phar) utiliser les commandes ci-dessous ::
-
+ 
  php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
- php -r "if (hash_file('SHA384', 'composer-setup.php') === 'aa96f26c2b67226a324c27919f1eb05f21c248b987e6195cad9690d5c1ff713d53020a02ac8c217dbf90a7eacc9d141d') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+ php -r "if (hash_file('SHA384', 'composer-setup.php') === '55d6ead61b29c7bdee5cccfb50076874187bd9f21f65d8991d46ec5cc90518f447387fb9f76ebae1fbbacf329e583e30') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
  php composer-setup.php
- php -r "unlink('composer-setup.php');"	  
-	  
+ php -r "unlink('composer-setup.php');"
 
+De temps en temps l'install ci-dessous change donc il faut faire bien attention a ce que tout ce soit bien passé sans message d'erreur et sinon allé sur le lien ci-dessous pour éventuellement reprendre les bonnes commandes.
+https://getcomposer.org/download/
+ 
 CLOUD9-SYMFONY
 **************
 symfony
@@ -87,8 +105,8 @@ if (isset($_SERVER['HTTP_CLIENT_IP'])
  
 Déplacer le projet créé à la racine ::
  
- mv symfony/{,.} ./ --> works
- rm -rf symfony --> works
+ mv symfony/{,.} ./ 
+ rm -rf symfony 
 
 
 

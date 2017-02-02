@@ -19,7 +19,7 @@
     </children>
     <children xmi:type="notation:BasicCompartment" xmi:id="_ak6uaBvsEeOC-LOeC0BbCA" type="7018">
       <children xmi:type="notation:Shape" xmi:id="_lQHFwBvsEeOC-LOeC0BbCA" type="3013" fontName="Segoe UI" lineColor="0">
-        <element xmi:type="uml:Operation" href="003_1_DesignPattern_AbstractFactory_example.uml#_lIFyMBvsEeOC-LOeC0BbCA"/>
+        <element xmi:type="uml:Operation" href="004_5_DesignPattern_AbstractFactory_example.uml#_lIFyMBvsEeOC-LOeC0BbCA"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_lQHFwRvsEeOC-LOeC0BbCA"/>
       </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_ak6uaRvsEeOC-LOeC0BbCA"/>
@@ -36,7 +36,7 @@
     <children xmi:type="notation:DecorationNode" xmi:id="_fr-XQK2QEeawzszw9y3mXA" type="8510">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_fr-XQa2QEeawzszw9y3mXA" y="5"/>
     </children>
-    <element xmi:type="uml:Class" href="003_1_DesignPattern_AbstractFactory_example.uml#_ak3EABvsEeOC-LOeC0BbCA"/>
+    <element xmi:type="uml:Class" href="004_5_DesignPattern_AbstractFactory_example.uml#_ak3EABvsEeOC-LOeC0BbCA"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ak5gQBvsEeOC-LOeC0BbCA" x="624" y="-24"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_oOTVMBvsEeOC-LOeC0BbCA" type="2004" fontName="Segoe UI" lineColor="0">
@@ -58,27 +58,27 @@
     </children>
     <children xmi:type="notation:BasicCompartment" xmi:id="_oOVKZxvsEeOC-LOeC0BbCA" type="7007">
       <children xmi:type="notation:Shape" xmi:id="_u4yQMBvsEeOC-LOeC0BbCA" type="3007" fontName="Segoe UI" lineColor="0">
-        <element xmi:type="uml:Operation" href="003_1_DesignPattern_AbstractFactory_example.uml#_u4gjYBvsEeOC-LOeC0BbCA"/>
+        <element xmi:type="uml:Operation" href="004_5_DesignPattern_AbstractFactory_example.uml#_u4gjYBvsEeOC-LOeC0BbCA"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_u4yQMRvsEeOC-LOeC0BbCA"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_xW-J4BvsEeOC-LOeC0BbCA" type="3007" fontName="Segoe UI" lineColor="0">
-        <element xmi:type="uml:Operation" href="003_1_DesignPattern_AbstractFactory_example.uml#_xWtEIBvsEeOC-LOeC0BbCA"/>
+        <element xmi:type="uml:Operation" href="004_5_DesignPattern_AbstractFactory_example.uml#_xWtEIBvsEeOC-LOeC0BbCA"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_xW-J4RvsEeOC-LOeC0BbCA"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_zxNXsBvsEeOC-LOeC0BbCA" type="3007" fontName="Segoe UI" lineColor="0">
-        <element xmi:type="uml:Operation" href="003_1_DesignPattern_AbstractFactory_example.uml#_zw85ABvsEeOC-LOeC0BbCA"/>
+        <element xmi:type="uml:Operation" href="004_5_DesignPattern_AbstractFactory_example.uml#_zw85ABvsEeOC-LOeC0BbCA"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_zxNXsRvsEeOC-LOeC0BbCA"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_2b3nIBvsEeOC-LOeC0BbCA" type="3007" fontName="Segoe UI" lineColor="0">
-        <element xmi:type="uml:Operation" href="003_1_DesignPattern_AbstractFactory_example.uml#_2bmhYBvsEeOC-LOeC0BbCA"/>
+        <element xmi:type="uml:Operation" href="004_5_DesignPattern_AbstractFactory_example.uml#_2bmhYBvsEeOC-LOeC0BbCA"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_2b3nIRvsEeOC-LOeC0BbCA"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_6Jkn8BvsEeOC-LOeC0BbCA" type="3007" fontName="Segoe UI" lineColor="0">
-        <element xmi:type="uml:Operation" href="003_1_DesignPattern_AbstractFactory_example.uml#_6JTiMBvsEeOC-LOeC0BbCA"/>
+        <element xmi:type="uml:Operation" href="004_5_DesignPattern_AbstractFactory_example.uml#_6JTiMBvsEeOC-LOeC0BbCA"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_6Jkn8RvsEeOC-LOeC0BbCA"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_8lmlgBvsEeOC-LOeC0BbCA" type="3007" fontName="Segoe UI" lineColor="0">
-        <element xmi:type="uml:Operation" href="003_1_DesignPattern_AbstractFactory_example.uml#_8k-TYBvsEeOC-LOeC0BbCA"/>
+        <element xmi:type="uml:Operation" href="004_5_DesignPattern_AbstractFactory_example.uml#_8k-TYBvsEeOC-LOeC0BbCA"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_8lmlgRvsEeOC-LOeC0BbCA"/>
       </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_oOVKaBvsEeOC-LOeC0BbCA"/>
@@ -95,7 +95,7 @@
     <children xmi:type="notation:DecorationNode" xmi:id="_fr-XQq2QEeawzszw9y3mXA" type="8507">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_fr-XQ62QEeawzszw9y3mXA" y="5"/>
     </children>
-    <element xmi:type="uml:Interface" href="003_1_DesignPattern_AbstractFactory_example.uml#_oOCPcBvsEeOC-LOeC0BbCA"/>
+    <element xmi:type="uml:Interface" href="004_5_DesignPattern_AbstractFactory_example.uml#_oOCPcBvsEeOC-LOeC0BbCA"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oOTVMRvsEeOC-LOeC0BbCA" x="84" y="-24" width="148"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_DqVzkBvtEeOC-LOeC0BbCA" type="2008" fontName="Segoe UI" lineColor="0">
@@ -117,27 +117,27 @@
     </children>
     <children xmi:type="notation:BasicCompartment" xmi:id="_DqbTIBvtEeOC-LOeC0BbCA" type="7018">
       <children xmi:type="notation:Shape" xmi:id="_XewZQBvtEeOC-LOeC0BbCA" type="3013" fontName="Segoe UI" lineColor="0">
-        <element xmi:type="uml:Operation" href="003_1_DesignPattern_AbstractFactory_example.uml#_XeIuMBvtEeOC-LOeC0BbCA"/>
+        <element xmi:type="uml:Operation" href="004_5_DesignPattern_AbstractFactory_example.uml#_XeIuMBvtEeOC-LOeC0BbCA"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_XewZQRvtEeOC-LOeC0BbCA"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_Y_lS0BvtEeOC-LOeC0BbCA" type="3013" fontName="Segoe UI" lineColor="0">
-        <element xmi:type="uml:Operation" href="003_1_DesignPattern_AbstractFactory_example.uml#_Y-9AsBvtEeOC-LOeC0BbCA"/>
+        <element xmi:type="uml:Operation" href="004_5_DesignPattern_AbstractFactory_example.uml#_Y-9AsBvtEeOC-LOeC0BbCA"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_Y_lS0RvtEeOC-LOeC0BbCA"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_bOZ60BvtEeOC-LOeC0BbCA" type="3013" fontName="Segoe UI" lineColor="0">
-        <element xmi:type="uml:Operation" href="003_1_DesignPattern_AbstractFactory_example.uml#_bN8AwBvtEeOC-LOeC0BbCA"/>
+        <element xmi:type="uml:Operation" href="004_5_DesignPattern_AbstractFactory_example.uml#_bN8AwBvtEeOC-LOeC0BbCA"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_bOZ60RvtEeOC-LOeC0BbCA"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_dAgKkBvtEeOC-LOeC0BbCA" type="3013" fontName="Segoe UI" lineColor="0">
-        <element xmi:type="uml:Operation" href="003_1_DesignPattern_AbstractFactory_example.uml#_c_2DQBvtEeOC-LOeC0BbCA"/>
+        <element xmi:type="uml:Operation" href="004_5_DesignPattern_AbstractFactory_example.uml#_c_2DQBvtEeOC-LOeC0BbCA"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_dAgKkRvtEeOC-LOeC0BbCA"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_e6gZIBvtEeOC-LOeC0BbCA" type="3013" fontName="Segoe UI" lineColor="0">
-        <element xmi:type="uml:Operation" href="003_1_DesignPattern_AbstractFactory_example.uml#_e6Ap4BvtEeOC-LOeC0BbCA"/>
+        <element xmi:type="uml:Operation" href="004_5_DesignPattern_AbstractFactory_example.uml#_e6Ap4BvtEeOC-LOeC0BbCA"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_e6gZIRvtEeOC-LOeC0BbCA"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_guGdsBvtEeOC-LOeC0BbCA" type="3013" fontName="Segoe UI" lineColor="0">
-        <element xmi:type="uml:Operation" href="003_1_DesignPattern_AbstractFactory_example.uml#_gtahMBvtEeOC-LOeC0BbCA"/>
+        <element xmi:type="uml:Operation" href="004_5_DesignPattern_AbstractFactory_example.uml#_gtahMBvtEeOC-LOeC0BbCA"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_guGdsRvtEeOC-LOeC0BbCA"/>
       </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_DqbTIRvtEeOC-LOeC0BbCA"/>
@@ -154,7 +154,7 @@
     <children xmi:type="notation:DecorationNode" xmi:id="_fr-XRK2QEeawzszw9y3mXA" type="8510">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_fr-XRa2QEeawzszw9y3mXA" y="5"/>
     </children>
-    <element xmi:type="uml:Class" href="003_1_DesignPattern_AbstractFactory_example.uml#_Dps6YBvtEeOC-LOeC0BbCA"/>
+    <element xmi:type="uml:Class" href="004_5_DesignPattern_AbstractFactory_example.uml#_Dps6YBvtEeOC-LOeC0BbCA"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DqVzkRvtEeOC-LOeC0BbCA" y="576" width="171"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_Dwb0gBvtEeOC-LOeC0BbCA" type="2008" fontName="Segoe UI" lineColor="0">
@@ -189,7 +189,7 @@
     <children xmi:type="notation:DecorationNode" xmi:id="_fr--UK2QEeawzszw9y3mXA" type="8510">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_fr--Ua2QEeawzszw9y3mXA" y="5"/>
     </children>
-    <element xmi:type="uml:Class" href="003_1_DesignPattern_AbstractFactory_example.uml#_DvxtMBvtEeOC-LOeC0BbCA"/>
+    <element xmi:type="uml:Class" href="004_5_DesignPattern_AbstractFactory_example.uml#_DvxtMBvtEeOC-LOeC0BbCA"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Dwb0gRvtEeOC-LOeC0BbCA" x="588" y="360"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_kU9PoBvtEeOC-LOeC0BbCA" type="2008" fontName="Segoe UI" lineColor="0">
@@ -211,27 +211,27 @@
     </children>
     <children xmi:type="notation:BasicCompartment" xmi:id="_kVCIIBvtEeOC-LOeC0BbCA" type="7018">
       <children xmi:type="notation:Shape" xmi:id="_oF-DIBvtEeOC-LOeC0BbCA" type="3013" fontName="Segoe UI" lineColor="0">
-        <element xmi:type="uml:Operation" href="003_1_DesignPattern_AbstractFactory_example.uml#_oFUi4BvtEeOC-LOeC0BbCA"/>
+        <element xmi:type="uml:Operation" href="004_5_DesignPattern_AbstractFactory_example.uml#_oFUi4BvtEeOC-LOeC0BbCA"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_oF-DIRvtEeOC-LOeC0BbCA"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_p5Sa4BvtEeOC-LOeC0BbCA" type="3013" fontName="Segoe UI" lineColor="0">
-        <element xmi:type="uml:Operation" href="003_1_DesignPattern_AbstractFactory_example.uml#_p4oTkBvtEeOC-LOeC0BbCA"/>
+        <element xmi:type="uml:Operation" href="004_5_DesignPattern_AbstractFactory_example.uml#_p4oTkBvtEeOC-LOeC0BbCA"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_p5Sa4RvtEeOC-LOeC0BbCA"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_rz6UgBvtEeOC-LOeC0BbCA" type="3013" fontName="Segoe UI" lineColor="0">
-        <element xmi:type="uml:Operation" href="003_1_DesignPattern_AbstractFactory_example.uml#_rzePoBvtEeOC-LOeC0BbCA"/>
+        <element xmi:type="uml:Operation" href="004_5_DesignPattern_AbstractFactory_example.uml#_rzePoBvtEeOC-LOeC0BbCA"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_rz6UgRvtEeOC-LOeC0BbCA"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_tVol8BvtEeOC-LOeC0BbCA" type="3013" fontName="Segoe UI" lineColor="0">
-        <element xmi:type="uml:Operation" href="003_1_DesignPattern_AbstractFactory_example.uml#_tU4_EBvtEeOC-LOeC0BbCA"/>
+        <element xmi:type="uml:Operation" href="004_5_DesignPattern_AbstractFactory_example.uml#_tU4_EBvtEeOC-LOeC0BbCA"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_tVol8RvtEeOC-LOeC0BbCA"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_u8JQwBvtEeOC-LOeC0BbCA" type="3013" fontName="Segoe UI" lineColor="0">
-        <element xmi:type="uml:Operation" href="003_1_DesignPattern_AbstractFactory_example.uml#_u7kpABvtEeOC-LOeC0BbCA"/>
+        <element xmi:type="uml:Operation" href="004_5_DesignPattern_AbstractFactory_example.uml#_u7kpABvtEeOC-LOeC0BbCA"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_u8JQwRvtEeOC-LOeC0BbCA"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_weWqYBvtEeOC-LOeC0BbCA" type="3013" fontName="Segoe UI" lineColor="0">
-        <element xmi:type="uml:Operation" href="003_1_DesignPattern_AbstractFactory_example.uml#_wdoRoBvtEeOC-LOeC0BbCA"/>
+        <element xmi:type="uml:Operation" href="004_5_DesignPattern_AbstractFactory_example.uml#_wdoRoBvtEeOC-LOeC0BbCA"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_weXRcBvtEeOC-LOeC0BbCA"/>
       </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_kVCIIRvtEeOC-LOeC0BbCA"/>
@@ -248,7 +248,7 @@
     <children xmi:type="notation:DecorationNode" xmi:id="_fr--Uq2QEeawzszw9y3mXA" type="8510">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_fr--U62QEeawzszw9y3mXA" y="5"/>
     </children>
-    <element xmi:type="uml:Class" href="003_1_DesignPattern_AbstractFactory_example.uml#_kUUWcBvtEeOC-LOeC0BbCA"/>
+    <element xmi:type="uml:Class" href="004_5_DesignPattern_AbstractFactory_example.uml#_kUUWcBvtEeOC-LOeC0BbCA"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kU9PoRvtEeOC-LOeC0BbCA" x="228" y="576"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_DyY8UBvtEeOC-LOeC0BbCA" type="2008" fontName="Segoe UI" lineColor="0">
@@ -283,7 +283,7 @@
     <children xmi:type="notation:DecorationNode" xmi:id="_fr--VK2QEeawzszw9y3mXA" type="8510">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_fr--Va2QEeawzszw9y3mXA" y="5"/>
     </children>
-    <element xmi:type="uml:Class" href="003_1_DesignPattern_AbstractFactory_example.uml#_Dx07oBvtEeOC-LOeC0BbCA"/>
+    <element xmi:type="uml:Class" href="004_5_DesignPattern_AbstractFactory_example.uml#_Dx07oBvtEeOC-LOeC0BbCA"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DyY8URvtEeOC-LOeC0BbCA" x="432" y="360"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_RjKIEBvuEeOC-LOeC0BbCA" type="2004" fontName="Segoe UI" lineColor="0">
@@ -318,7 +318,7 @@
     <children xmi:type="notation:DecorationNode" xmi:id="_fr--Vq2QEeawzszw9y3mXA" type="8507">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_fr--V62QEeawzszw9y3mXA" y="5"/>
     </children>
-    <element xmi:type="uml:Interface" href="003_1_DesignPattern_AbstractFactory_example.uml#_Ri-h4BvuEeOC-LOeC0BbCA"/>
+    <element xmi:type="uml:Interface" href="004_5_DesignPattern_AbstractFactory_example.uml#_Ri-h4BvuEeOC-LOeC0BbCA"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RjKIERvuEeOC-LOeC0BbCA" x="504" y="144"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_jkEv0BvuEeOC-LOeC0BbCA" type="2004" fontName="Segoe UI" lineColor="0">
@@ -353,7 +353,7 @@
     <children xmi:type="notation:DecorationNode" xmi:id="_fr--WK2QEeawzszw9y3mXA" type="8507">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_fr--Wa2QEeawzszw9y3mXA" y="5"/>
     </children>
-    <element xmi:type="uml:Interface" href="003_1_DesignPattern_AbstractFactory_example.uml#_jjyb8BvuEeOC-LOeC0BbCA"/>
+    <element xmi:type="uml:Interface" href="004_5_DesignPattern_AbstractFactory_example.uml#_jjyb8BvuEeOC-LOeC0BbCA"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jkEv0RvuEeOC-LOeC0BbCA" x="876" y="144"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_l8UZkBvuEeOC-LOeC0BbCA" type="2008" fontName="Segoe UI" lineColor="0">
@@ -388,7 +388,7 @@
     <children xmi:type="notation:DecorationNode" xmi:id="_fr--Wq2QEeawzszw9y3mXA" type="8510">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_fr--W62QEeawzszw9y3mXA" y="5"/>
     </children>
-    <element xmi:type="uml:Class" href="003_1_DesignPattern_AbstractFactory_example.uml#_l8CswBvuEeOC-LOeC0BbCA"/>
+    <element xmi:type="uml:Class" href="004_5_DesignPattern_AbstractFactory_example.uml#_l8CswBvuEeOC-LOeC0BbCA"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l8UZkRvuEeOC-LOeC0BbCA" x="756" y="372"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_qITR0BvuEeOC-LOeC0BbCA" type="2008" fontName="Segoe UI" lineColor="0">
@@ -423,12 +423,12 @@
     <children xmi:type="notation:DecorationNode" xmi:id="_fr--XK2QEeawzszw9y3mXA" type="8510">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_fr--Xa2QEeawzszw9y3mXA" y="5"/>
     </children>
-    <element xmi:type="uml:Class" href="003_1_DesignPattern_AbstractFactory_example.uml#_qIBlABvuEeOC-LOeC0BbCA"/>
+    <element xmi:type="uml:Class" href="004_5_DesignPattern_AbstractFactory_example.uml#_qIBlABvuEeOC-LOeC0BbCA"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qITR0RvuEeOC-LOeC0BbCA" x="972" y="360"/>
   </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_YPCcIRvsEeOC-LOeC0BbCA"/>
   <styles xmi:type="notation:StringValueStyle" xmi:id="_fr--Xq2QEeawzszw9y3mXA" name="diagram_compatibility_version" stringValue="1.1.0"/>
-  <element xmi:type="uml:Model" href="003_1_DesignPattern_AbstractFactory_example.uml#_YPAm8BvsEeOC-LOeC0BbCA"/>
+  <element xmi:type="uml:Model" href="004_5_DesignPattern_AbstractFactory_example.uml#_YPAm8BvsEeOC-LOeC0BbCA"/>
   <edges xmi:type="notation:Connector" xmi:id="_T7ft4BvtEeOC-LOeC0BbCA" type="4003" source="_DqVzkBvtEeOC-LOeC0BbCA" target="_oOTVMBvsEeOC-LOeC0BbCA" lineColor="0">
     <children xmi:type="notation:DecorationNode" xmi:id="_T7jYQBvtEeOC-LOeC0BbCA" type="6008">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_T7j_UBvtEeOC-LOeC0BbCA" y="40"/>
@@ -437,7 +437,7 @@
       <layoutConstraint xmi:type="notation:Location" xmi:id="_T7kmYBvtEeOC-LOeC0BbCA" x="10" y="-19"/>
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_T7ft4RvtEeOC-LOeC0BbCA" fontName="Segoe UI"/>
-    <element xmi:type="uml:InterfaceRealization" href="003_1_DesignPattern_AbstractFactory_example.uml#_T51hABvtEeOC-LOeC0BbCA"/>
+    <element xmi:type="uml:InterfaceRealization" href="004_5_DesignPattern_AbstractFactory_example.uml#_T51hABvtEeOC-LOeC0BbCA"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_T7ft4hvtEeOC-LOeC0BbCA" points="[19, -50, -50, 128]$[32, -86, -37, 92]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2O8N4K2QEeawzszw9y3mXA" id="(0.0,0.0)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2O8N4a2QEeawzszw9y3mXA" id="(0.40540540540540543,1.0)"/>
@@ -450,7 +450,7 @@
       <layoutConstraint xmi:type="notation:Location" xmi:id="_zMUFcRvtEeOC-LOeC0BbCA" y="60"/>
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_zMRCIRvtEeOC-LOeC0BbCA" fontName="Segoe UI"/>
-    <element xmi:type="uml:InterfaceRealization" href="003_1_DesignPattern_AbstractFactory_example.uml#_zLF9cBvtEeOC-LOeC0BbCA"/>
+    <element xmi:type="uml:InterfaceRealization" href="004_5_DesignPattern_AbstractFactory_example.uml#_zLF9cBvtEeOC-LOeC0BbCA"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zMRCIhvtEeOC-LOeC0BbCA" points="[-40, -27, 181, 171]$[-251, -106, -30, 92]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zMkkIBvtEeOC-LOeC0BbCA" id="(0.24083769633507854,0.0)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2O808K2QEeawzszw9y3mXA" id="(0.6824324324324325,1.0)"/>
@@ -463,7 +463,7 @@
       <layoutConstraint xmi:type="notation:Location" xmi:id="_YHHkUhvuEeOC-LOeC0BbCA" y="60"/>
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_YHFvIRvuEeOC-LOeC0BbCA" fontName="Segoe UI"/>
-    <element xmi:type="uml:InterfaceRealization" href="003_1_DesignPattern_AbstractFactory_example.uml#_YGaZsBvuEeOC-LOeC0BbCA"/>
+    <element xmi:type="uml:InterfaceRealization" href="004_5_DesignPattern_AbstractFactory_example.uml#_YGaZsBvuEeOC-LOeC0BbCA"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_YHFvIhvuEeOC-LOeC0BbCA" points="[-38, -40, 97, 89]$[-131, -180, 4, -51]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YHQHMBvuEeOC-LOeC0BbCA" id="(0.48,0.0)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_p0-nkK2QEeawzszw9y3mXA" id="(0.5,1.0)"/>
@@ -476,7 +476,7 @@
       <layoutConstraint xmi:type="notation:Location" xmi:id="_Yl2HsBvuEeOC-LOeC0BbCA" x="-2" y="-67"/>
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_Yl0SgRvuEeOC-LOeC0BbCA" fontName="Segoe UI"/>
-    <element xmi:type="uml:InterfaceRealization" href="003_1_DesignPattern_AbstractFactory_example.uml#_YlKLMBvuEeOC-LOeC0BbCA"/>
+    <element xmi:type="uml:InterfaceRealization" href="004_5_DesignPattern_AbstractFactory_example.uml#_YlKLMBvuEeOC-LOeC0BbCA"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Yl0SghvuEeOC-LOeC0BbCA" points="[9, -19, -56, 89]$[59, -159, -6, -51]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Yl-qkBvuEeOC-LOeC0BbCA" id="(0.48,0.0)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_p0-AgK2QEeawzszw9y3mXA" id="(0.35,1.0)"/>
@@ -489,7 +489,7 @@
       <layoutConstraint xmi:type="notation:Location" xmi:id="_anOwoxvuEeOC-LOeC0BbCA" y="60"/>
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_anM7cRvuEeOC-LOeC0BbCA" fontName="Segoe UI"/>
-    <element xmi:type="uml:Dependency" href="003_1_DesignPattern_AbstractFactory_example.uml#_amiNEBvuEeOC-LOeC0BbCA"/>
+    <element xmi:type="uml:Dependency" href="004_5_DesignPattern_AbstractFactory_example.uml#_amiNEBvuEeOC-LOeC0BbCA"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_anM7chvuEeOC-LOeC0BbCA" points="[7, 0, -155, -111]$[162, 0, 0, -111]$[162, 60, 0, -51]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_anX6kBvuEeOC-LOeC0BbCA" id="(0.23300970873786409,1.0)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pVoZIK2QEeawzszw9y3mXA" id="(0.48,0.0)"/>
@@ -502,7 +502,7 @@
       <layoutConstraint xmi:type="notation:Location" xmi:id="_bhmuMxvuEeOC-LOeC0BbCA" y="60"/>
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_bhk5ARvuEeOC-LOeC0BbCA" fontName="Segoe UI"/>
-    <element xmi:type="uml:Dependency" href="003_1_DesignPattern_AbstractFactory_example.uml#_bg4VcBvuEeOC-LOeC0BbCA"/>
+    <element xmi:type="uml:Dependency" href="004_5_DesignPattern_AbstractFactory_example.uml#_bg4VcBvuEeOC-LOeC0BbCA"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bhk5AhvuEeOC-LOeC0BbCA" points="[-11, 4, 209, -88]$[-198, 83, 22, -9]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bhv4IBvuEeOC-LOeC0BbCA" id="(0.0,0.64)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bhv4IRvuEeOC-LOeC0BbCA" id="(1.0,0.3736842105263158)"/>
@@ -515,7 +515,7 @@
       <layoutConstraint xmi:type="notation:Location" xmi:id="_eeYBURvuEeOC-LOeC0BbCA" y="60"/>
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_eeWzMRvuEeOC-LOeC0BbCA" fontName="Segoe UI"/>
-    <element xmi:type="uml:Dependency" href="003_1_DesignPattern_AbstractFactory_example.uml#_edvvMBvuEeOC-LOeC0BbCA"/>
+    <element xmi:type="uml:Dependency" href="004_5_DesignPattern_AbstractFactory_example.uml#_edvvMBvuEeOC-LOeC0BbCA"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_eeWzMhvuEeOC-LOeC0BbCA" points="[0, 0, -53, 158]$[61, -6, 8, 152]$[53, -158, 0, 0]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eeevABvuEeOC-LOeC0BbCA" id="(1.0,0.24)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vqd0QK2QEeawzszw9y3mXA" id="(0.4,1.0)"/>
@@ -528,7 +528,7 @@
       <layoutConstraint xmi:type="notation:Location" xmi:id="_fKTTMBvuEeOC-LOeC0BbCA" y="60"/>
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_fKQ28RvuEeOC-LOeC0BbCA" fontName="Segoe UI"/>
-    <element xmi:type="uml:Dependency" href="003_1_DesignPattern_AbstractFactory_example.uml#_fJsPMBvuEeOC-LOeC0BbCA"/>
+    <element xmi:type="uml:Dependency" href="004_5_DesignPattern_AbstractFactory_example.uml#_fJsPMBvuEeOC-LOeC0BbCA"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fKQ28hvuEeOC-LOeC0BbCA" points="[0, 0, -581, 291]$[12, 197, -569, 488]$[588, 197, 7, 488]$[581, -291, 0, 0]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fKcdIBvuEeOC-LOeC0BbCA" id="(0.2807017543859649,1.0)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wH1FsK2QEeawzszw9y3mXA" id="(0.41,1.0)"/>
@@ -541,7 +541,7 @@
       <layoutConstraint xmi:type="notation:Location" xmi:id="_vbzy0RvuEeOC-LOeC0BbCA" x="-46" y="56"/>
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_vbx9oRvuEeOC-LOeC0BbCA" fontName="Segoe UI"/>
-    <element xmi:type="uml:InterfaceRealization" href="003_1_DesignPattern_AbstractFactory_example.uml#_vbSOYBvuEeOC-LOeC0BbCA"/>
+    <element xmi:type="uml:InterfaceRealization" href="004_5_DesignPattern_AbstractFactory_example.uml#_vbSOYBvuEeOC-LOeC0BbCA"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vbx9ohvuEeOC-LOeC0BbCA" points="[-50, -50, 30, 29]$[-58, -60, 22, 19]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vTT4gK2QEeawzszw9y3mXA" id="(0.48,0.0)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vb-K4BvuEeOC-LOeC0BbCA" id="(0.78,1.0)"/>
@@ -554,7 +554,7 @@
       <layoutConstraint xmi:type="notation:Location" xmi:id="_v2-r4xvuEeOC-LOeC0BbCA" x="21" y="46"/>
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_v29dwRvuEeOC-LOeC0BbCA" fontName="Segoe UI"/>
-    <element xmi:type="uml:InterfaceRealization" href="003_1_DesignPattern_AbstractFactory_example.uml#_v2dHcBvuEeOC-LOeC0BbCA"/>
+    <element xmi:type="uml:InterfaceRealization" href="004_5_DesignPattern_AbstractFactory_example.uml#_v2dHcBvuEeOC-LOeC0BbCA"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v29dwhvuEeOC-LOeC0BbCA" points="[47, -50, -78, 63]$[75, -108, -50, 5]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_t4JiEK2QEeawzszw9y3mXA" id="(0.5514018691588785,0.0)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_t4KJIK2QEeawzszw9y3mXA" id="(0.06,1.0)"/>
@@ -567,7 +567,7 @@
       <layoutConstraint xmi:type="notation:Location" xmi:id="_zZl3AxvuEeOC-LOeC0BbCA" y="60"/>
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_zZlP8RvuEeOC-LOeC0BbCA" fontName="Segoe UI"/>
-    <element xmi:type="uml:Dependency" href="003_1_DesignPattern_AbstractFactory_example.uml#_zZGu0BvuEeOC-LOeC0BbCA"/>
+    <element xmi:type="uml:Dependency" href="004_5_DesignPattern_AbstractFactory_example.uml#_zZGu0BvuEeOC-LOeC0BbCA"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zZlP8hvuEeOC-LOeC0BbCA" points="[0, 0, -226, -153]$[174, 56, -52, -97]$[180, 68, -46, -85]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zZsksBvuEeOC-LOeC0BbCA" id="(0.5242718446601942,1.0)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zZtLwBvuEeOC-LOeC0BbCA" id="(0.22,0.0)"/>
@@ -580,7 +580,7 @@
       <layoutConstraint xmi:type="notation:Location" xmi:id="_GUuEQxvvEeOC-LOeC0BbCA" y="60"/>
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_GUs2IBvvEeOC-LOeC0BbCA" fontName="Segoe UI"/>
-    <element xmi:type="uml:Dependency" href="003_1_DesignPattern_AbstractFactory_example.uml#_GUCu0BvvEeOC-LOeC0BbCA"/>
+    <element xmi:type="uml:Dependency" href="004_5_DesignPattern_AbstractFactory_example.uml#_GUCu0BvvEeOC-LOeC0BbCA"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_GUs2IRvvEeOC-LOeC0BbCA" points="[0, 0, -385, 219]$[385, -7, 0, 212]$[385, -219, 0, 0]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GU2nIBvvEeOC-LOeC0BbCA" id="(1.0,0.6571428571428571)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_t4KJIa2QEeawzszw9y3mXA" id="(0.4485981308411215,1.0)"/>
@@ -593,7 +593,7 @@
       <layoutConstraint xmi:type="notation:Location" xmi:id="_HUHEshvvEeOC-LOeC0BbCA" y="60"/>
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_HUFPgRvvEeOC-LOeC0BbCA" fontName="Segoe UI"/>
-    <element xmi:type="uml:Dependency" href="003_1_DesignPattern_AbstractFactory_example.uml#_HTahIBvvEeOC-LOeC0BbCA"/>
+    <element xmi:type="uml:Dependency" href="004_5_DesignPattern_AbstractFactory_example.uml#_HTahIBvvEeOC-LOeC0BbCA"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_HUFPghvvEeOC-LOeC0BbCA" points="[0, 0, -880, 291]$[0, 137, -880, 428]$[880, 137, 0, 428]$[880, -175, 0, 116]$[880, -291, 0, 0]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HUQOoBvvEeOC-LOeC0BbCA" id="(0.8888888888888888,1.0)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xN8ZMK2QEeawzszw9y3mXA" id="(0.6,1.0)"/>

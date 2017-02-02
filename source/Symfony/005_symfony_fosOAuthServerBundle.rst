@@ -1,6 +1,55 @@
 Symfony fosOAuthServerBundle
 ############################
 
+OAuth2 principe
+***************
+
+OAuth Roles
+===========
+
+`lien`_
+
+.. _lien: https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2
+
+
+OAuth defines four roles:
+
+* Resource Owner
+* Client
+* Resource Server
+* Authorization Server
+
+
+
+**Resource Owner: User**
+
+The resource owner is the user who authorizes an application to access their account. 
+The application's access to the user's account is limited to the "scope" of the authorization granted (e.g. read or write access).
+
+**Resource/Authorization Server: API**
+
+The resource server hosts the protected user accounts, and the authorization server verifies the identity of the user then issues access tokens to the application.
+
+From an application developer's point of view, a service's API fulfills both the resource and authorization server roles. We will refer to both of these roles combined, as the Service or API role.
+
+**Client: Application**
+
+The client is the application that wants to access the user's account. Before it may do so, it must be authorized by the user, and the authorization must be validated by the API.
+
+**Abstract Protocol Flow**
+
+.. image:: images/abstract_flow.png
+
+
+1. The application requests authorization to access service resources from the user
+#. If the user authorized the request, the application receives an authorization grant
+#. The application requests an access token from the authorization server (API) by presenting authentication of its own identity, and the authorization grant
+#. If the application identity is authenticated and the authorization grant is valid, the authorization server (API) issues an access token to the application. Authorization is complete.
+#. The application requests the resource from the resource server (API) and presents the access token for authentication
+#. If the access token is valid, the resource server (API) serves the resource to the application
+
+
+
 fosOAuthServerBundle
 ********************
 
@@ -57,8 +106,8 @@ Pour tester ::
 Ici le tutoriel de bitgandtter est devenu un brin compliqué pour moi. Je ne suis pas encore sur d'avoir tout saisie.
 Pour l'instant je n'ai pas reussi avec le grant_type password/credential mais uniquement avec le grant_type code.
 
-Version avec code
-=================
+Grant type Authorization code
+=============================
 
 Commande à saisir ::
 
@@ -66,13 +115,30 @@ Commande à saisir ::
  
 Reponse ::
 
- CreateOAuthClientCommand::configureCreateOAuthClientCommandThe client client1 was created with 30_15paykyxzysgkoco8k800cco84o444gowc4s8gkw8c0wow4g0o as public id and jzy1jbfi5rkokss8scgc8kcg0s444og4sos4ckccc4cgogsck as secret
+ CreateOAuthClientCommand::configureCreateOAuthClientCommandThe client client1 was created with 33_5uiis8fsaa04kgk0848wscg8kwg804wgocso88wk8cscswgksk as public id and 3apu4xhbnuckwoso8sw8k4os80sg8ocokc0k0g80wos8kk40k8 as secret
  Customer 586246a9201fe linked to client client1
  Customer 586246cd083b7 linked to client client1
  
 
 cela me créer plusieurs ligne dans le client, autant de lignes que d'utilisateurs enregistrés dans la table user du module FOSUser.
-Cela génére un token (code), dans la table auth_code, qui a une durée de validité assez courte ce qui ne permet de l'utliser lorsque l'on est dans un traitement manuel. 
+
+Table client
++----+----------------------------------------------------+-----------------------------------+----------------------------------------------------+--------------------------------------+---------+
+| id | random_id                                          | redirect_uris                     | secret                                             | allowed_grant_types                  | name    |
++----+----------------------------------------------------+-----------------------------------+----------------------------------------------------+--------------------------------------+---------+
+| 33 | 5uiis8fsaa04kgk0848wscg8kwg804wgocso88wk8cscswgksk | a:1:{i:0;s:15:"www.client1.com";} | 3apu4xhbnuckwoso8sw8k4os80sg8ocokc0k0g80wos8kk40k8 | a:1:{i:0;s:8:"password";}            | client1 |
++----+----------------------------------------------------+-----------------------------------+----------------------------------------------------+--------------------------------------+---------+
+
+Table auth_code
++----+-----------+-------------+----------------------------------------------------------------------------------------+-----------------+------------+----------+
+| id | client_id | customer_id | token                                                                                  | redirect_uri    | expires_at | scope    |
++----+-----------+-------------+----------------------------------------------------------------------------------------+-----------------+------------+----------+
+| 36 |        33 | NULL        | Yzk4ZTkwNjhhODk1ZmQ1MmRkOTlmZWM2YzVlMTU5MzI5YjFmZDBkYWRhMTNmZGIzN2M0YjBlZDMwZDQ0ZmU0Mg | www.client1.com | 1483983403 | password |
+| 37 |        33 | NULL        | MWJiYmE2MzZlMzE1ZWZhZTFjZjc0OTlmNWFlMmFhNDZhMzdmYWQ3MzNkYjhiYTg4YTU5YjllN2JmYTgwZWFmMg | www.client1.com | 1483983403 | password |
++----+-----------+-------------+----------------------------------------------------------------------------------------+-----------------+------------+----------+
+
+
+Cela génére un token (code), dans la table auth_code, qui a une durée de validité assez courte ce qui ne permet pas de l'utliser lorsque l'on est dans un traitement manuel. 
 j'ai donc ajouté les durées de validité du token comme ci-dessous ::
 
  //app/config.yml
@@ -87,7 +153,7 @@ j'ai donc ajouté les durées de validité du token comme ci-dessous ::
 
 Commande à saisir ::
 
- https://snowyday-man.c9users.io/web/app_dev.php/oauth/v2/token?client_id=30_15paykyxzysgkoco8k800cco84o444gowc4s8gkw8c0wow4g0o&client_secret=jzy1jbfi5rkokss8scgc8kcg0s444og4sos4ckccc4cgogsck&grant_type=authorization_code&redirect_uri=www.client1.com&code=OGEyOGI3ODcxNjkyYjMwOWUxYTcyOGJlYTcwMGM0YWUxOGY3MzgyMDI4YzljZGQzYjExYTg1NGQzYzhkM2Y3MA
+ https://snowyday-man.c9users.io/web/app_dev.php/oauth/v2/token?client_id=33_5uiis8fsaa04kgk0848wscg8kwg804wgocso88wk8cscswgksk&client_secret=3apu4xhbnuckwoso8sw8k4os80sg8ocokc0k0g80wos8kk40k8&grant_type=authorization_code&redirect_uri=www.client1.com&code=OGEyOGI3ODcxNjkyYjMwOWUxYTcyOGJlYTcwMGM0YWUxOGY3MzgyMDI4YzljZGQzYjExYTg1NGQzYzhkM2Y3MA
 
 ensuite aprés avoir lancé la requète http ci-dessus cela me génére un token dans la table access_token et un autre token dans la table refresh_token
 
